@@ -1,0 +1,12 @@
+@import "../../style/variables.scss";
+
+.price_container {
+  width: 100%;
+  line-height: 3em;
+  border-radius: 0 0 10px 10px;
+  background-color: $color-secundary;
+  color: $color-base;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+}

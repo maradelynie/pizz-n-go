@@ -1,0 +1,68 @@
+@import "../../style/variables.scss";
+.optionList_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 0 20px;
+}
+.optionList_container {
+  background-color: $color-base;
+  text-align: center;
+  margin: auto;
+  width: 28%;
+  border-radius: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.7;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  overflow: hidden;
+  gap: 2em;
+  & img {
+    width: 4em;
+    height: 4em;
+    object-fit: cover;
+  }
+}
+.optionList_container:hover {
+  transform: scale(1.1);
+  opacity: 1;
+
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+}
+.optionList_container:active {
+  transform: scale(1);
+}
+.optionList_container-active {
+  @extend .optionList_container;
+  opacity: 1;
+  background-color: $color-secundary;
+  color: $color-base;
+}
+
+.main_textAnimation {
+  animation: warning 0.5s ease-in-out forwards;
+}
+.confirm_total {
+  line-height: 3em;
+}
+
+@keyframes warning {
+  0% {
+    transform: translateX(6px);
+    color: #fe5f55;
+  }
+  33% {
+    transform: translateX(-6px);
+    color: #fe5f55;
+  }
+  66% {
+    transform: translateX(6px);
+    color: #fe5f55;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

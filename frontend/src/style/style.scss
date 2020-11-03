@@ -1,0 +1,32 @@
+@import "./variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0;
+  width: 100%;
+  background-color: $color-base;
+  color: $color-base-text;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+#root {
+  width: 100%;
+  max-width: $default-conteiner;
+}
+* {
+  margin: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Righteous", cursive;
+}
+.main_content {
+  position: relative;
+}

@@ -1,0 +1,19 @@
+@import "../../style/variables.scss";
+
+.header_container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1em;
+  width: 100%;
+}
+.header_logo {
+  width: 5em;
+}
+.header_title {
+  font-size: 5em;
+  color: $color-principal;
+  text-transform: uppercase;
+  font-weight: 300;
+}

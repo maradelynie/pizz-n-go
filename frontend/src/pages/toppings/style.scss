@@ -1,0 +1,37 @@
+@import "../../style/variables.scss";
+
+.main_container {
+  background-color: $color-base-card;
+  position: absolute;
+  width: 100%;
+  z-index: 4;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 3em;
+}
+.main_header {
+  text-align: center;
+  line-height: 2em;
+  margin: 30px 0;
+}
+.main_title {
+  text-transform: uppercase;
+  color: $color-text;
+}
+.optionList_confirm {
+  background-color: $color-principal;
+  color: $color-base;
+  line-height: 3em;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  margin: 0 20px;
+  cursor: pointer;
+  outline: none;
+}
+.optionList_confirm:hover {
+  opacity: 0.5;
+}
+.optionList_confirm:active {
+  opacity: 1;
+}
