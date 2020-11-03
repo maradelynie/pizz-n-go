@@ -3,8 +3,10 @@
 pizz'n'go is a frontend project developed in ReactJs, SCSS with a simple backend in NodeJs using MongoDB.
 
 try it:
-
+See the application
 https://pizz-n-go.vercel.app/
+see the orders (JSON)
+https://pizz-n-go.herokuapp.com/api/orders
 
 ## Getting Started
 
